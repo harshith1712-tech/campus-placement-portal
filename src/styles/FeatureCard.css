@@ -1,0 +1,25 @@
+.feature-card {
+  border: 4px solid #ccc;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 16px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  transition:
+    all 0,
+    3s ease;
+  width: 300px;
+}
+/* so we have basically designed the the feature card layout like how it should look 
+and all and this is the css styling part only */
+.feature-card:hover {
+  transform: transLateY(-12px) scale(1.03);
+  border-color: #007bff;
+}
+.feature-card h2 {
+  margin-bottom: 15px;
+}
+.feature-card p {
+  color: #b0b0b0;
+  line-height: 1.5;
+}

@@ -1,19 +1,33 @@
 import FeatureCard from "./FeatureCard";
+import "../styles/FeaturesSection.css";
 function FeaturesSection() {
   return (
-    <>
-      <FeatureCard title="DSA Tracker" description="Track solved problems" />
+    <section className="features-section">
+      <h2 className="features-heading">
+        Everything You Need To Crack Placements
+      </h2>
 
-      <FeatureCard
-        title="Interview Experience"
-        description="Read experiences shared by seniors"
-      />
+      <p className="features-subtitle">
+        Track progress, learn from seniors, and stay interview-ready throughout
+        your placement journey.
+      </p>
+      <div className="features-container">
+        <FeatureCard
+          title="📚 DSA Tracker"
+          description="Track solved problems, monitor consistency, and stay on top of your coding preparation."
+        />
 
-      <FeatureCard
-        title="Placement Dashboard"
-        description="Monitor preparation progress"
-      />
-    </>
+        <FeatureCard
+          title="🎯Interview Experience"
+          description="Explore real interview experiences from students placed in top companies."
+        />
+
+        <FeatureCard
+          title="📊 Placement Dashboard"
+          description="Visualize your preparation journey with detailed progress tracking."
+        />
+      </div>
+    </section>
   );
 }
 export default FeaturesSection;

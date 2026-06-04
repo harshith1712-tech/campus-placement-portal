@@ -1,0 +1,21 @@
+/* responsible for the entre box making of the feature cards and spacing and padding */
+.features-section {
+  padding: 20px;
+}
+.features-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-family: poppins, sans-serif;
+}
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-family: poppins, sans-serif;
+}
+.features-subtitle {
+  text-align: center;
+  color: #b0b0b0;
+  margin-bottom: 40px;
+}
