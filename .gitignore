@@ -5,10 +5,8 @@ frontend/dist/
 # Backend
 backend/target/
 
-# VS Code
+# IDE
 .vscode/
-
-# IntelliJ
 .idea/
 
 # Logs
