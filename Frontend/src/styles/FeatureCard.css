@@ -1,0 +1,27 @@
+.feature-card {
+  /* the width talks */
+  width: 320px;
+  padding: 30px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  border-color: #6366f1;
+  box-shadow: 0 15px 30px rgba(99, 102, 241, 0.2);
+}
+
+.feature-card h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.feature-card p {
+  color: #b0b0b0;
+  line-height: 1.7;
+}

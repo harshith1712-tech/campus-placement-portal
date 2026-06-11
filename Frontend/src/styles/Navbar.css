@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  border-bottom: 3px solid white;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+.nav-links li {
+  transition: color 0.3s ease;
+}
+.nav-links li:hover {
+  color: #6366f1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 23px;
+  color: white;
+  font-weight: italic;
+  font-family: Poppins, sans-serif;
+}
