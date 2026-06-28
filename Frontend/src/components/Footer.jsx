@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <h2>Campus Placement Portal</h2>
+          <h2>PlacePilot</h2>
           <p>Helping students prepare smarter and land their dream jobs.</p>
         </div>
 
@@ -29,7 +29,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2026 Campus Placement Portal. All rights reserved.</p>
+        <p>© 2026 PlacePilot. All rights reserved.</p>
       </div>
     </footer>
   );
