@@ -1,5 +1,11 @@
-import Landing from "./pages/Landing";
 function App() {
-  return <Landing />;
+  return (
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+      <h1 className="text-6xl font-bold text-violet-500">
+        Tailwind is Working 🚀
+      </h1>
+    </div>
+  );
 }
+
 export default App;
